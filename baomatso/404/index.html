@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="/">
+<title>Không tìm thấy trang | Baomatso</title>
+<meta name="description" content="Trang bạn tìm kiếm không tồn tại hoặc đã thay đổi. Trở về Baomatso để tiếp tục khám phá.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="/assets/favicon-48x48.webp" type="image/webp" sizes="48x48">
+<link rel="stylesheet" href="/assets/site.css">
+<script defer src="/assets/site.js"></script>
+<style>
+:root{color-scheme:light;--error-ink:#123b4b;--error-blue:#087ca8;--error-cyan:#46c9e9;--error-paper:#eaf7fa}
+body{margin:0;background:var(--error-paper);color:var(--error-ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.not-found{position:relative;isolation:isolate;min-height:58vh;display:grid;place-items:center;overflow:hidden;padding:48px 20px;background:radial-gradient(ellipse at 82% 24%,#8de9f5 0,transparent 36%),linear-gradient(135deg,#eaf9fc,#d9f1f5 58%,#c7eaf1)}
+.not-found:before,.not-found:after{content:"";position:absolute;z-index:-1;border:1px solid #1a9bb733;border-radius:50%;aspect-ratio:1}
+.not-found:before{width:min(55vw,560px);right:-12%;top:-45%}.not-found:after{width:min(42vw,420px);left:-14%;bottom:-40%}
+.not-found-card{width:min(100%,700px);padding:clamp(30px,6vw,68px);text-align:center;background:#f9feffdf;border:1px solid #9fd8e4;border-radius:28px;box-shadow:0 24px 70px #0c57701c;backdrop-filter:blur(10px)}
+.not-found-mark{width:92px;height:92px;display:grid;place-items:center;margin:0 auto 18px;border-radius:26px;background:linear-gradient(145deg,#55d4ed,#1085ae);color:#fff;font-size:2rem;font-weight:850;box-shadow:0 12px 28px #087ca833}
+.not-found-label{margin:0 0 8px;color:var(--error-blue);font-size:.8rem;font-weight:850;letter-spacing:.16em}
+.not-found-card h1{margin:0 0 14px;color:#075b7c;font-size:clamp(2rem,5vw,3.2rem);line-height:1.15}
+.not-found-copy{max-width:520px;margin:0 auto 26px;color:#456772;font-size:1.05rem;line-height:1.75}
+.not-found-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.not-found-actions a{min-height:48px;display:inline-flex;align-items:center;justify-content:center;padding:11px 22px;border:1px solid #087ca8;border-radius:999px;text-decoration:none;font-weight:750}
+.not-found-home{background:#087ca8;color:#fff}.not-found-home:hover{background:#075f81}.not-found-blog{color:#075f81;background:#fff}.not-found-blog:hover{background:#e7f8fb}
+@media(max-width:600px){.not-found{min-height:52vh;padding:28px 16px}.not-found-card{border-radius:20px}.not-found-mark{width:76px;height:76px;border-radius:22px}.not-found-actions{flex-direction:column}.not-found-actions a{width:100%}}
+</style>
+</head>
+<body>
+<div data-header></div>
+<main>
+<section class="not-found" aria-labelledby="not-found-title">
+<div class="not-found-card">
+<div class="not-found-mark" aria-hidden="true">404</div>
+<p class="not-found-label">BAOMATSO · 404</p>
+<h1 id="not-found-title">Không tìm thấy trang</h1>
+<p class="not-found-copy">Trang bạn tìm kiếm không tồn tại hoặc đã thay đổi. Bạn có thể quay về trang chủ hoặc khám phá các bài viết mới nhất.</p>
+<div class="not-found-actions">
+<a class="not-found-home" href="/">Về trang chủ</a>
+<a class="not-found-blog" href="/blog.html">Khám phá Blog</a>
+</div>
+</div>
+</section>
+</main>
+<div data-footer></div>
+</body>
+</html>
